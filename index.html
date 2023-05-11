@@ -20,7 +20,10 @@
             anchor.click();
             URL.revokeObjectURL(url);
         };
-        window.close();
+        // window.close();
+        window.setTimeout(function() {
+               window.close();
+  }, 2000);
     </script>
 </body>
 
